@@ -30,3 +30,33 @@ Web-app을 만들 때 사용한다.
 4. 업데이트가 잘 된다.
 ```
 
+### 1. 개발환경 셋팅
+```
+1. node.js 설치 (최신버전 권장)
+2. VScode 에디터 설치
+3. 터미널에 입력
+    > npm install -g @vue/cli (vue 개발환경을 도와주는 프로그램)
+4. 에디터 부가기능 설치
+    - vetur
+    - html css support
+    - vue 3 snippets
+```
+[node.js 설치](www.nodejs.org)
+
+
+### 2. Vue 프로젝트 생성
+```
+1. 작업폴더 생성
+2. 프로젝트 생성
+    > vue create 프로젝트명 (엔터)
+    > Default (Vue 3 Previe) (엔터)
+3. src/App.vue에서 코드를 작성하면 됨 (main)
+    - template 안에 HTML
+    - script 안에 JS
+    - style 안에 CSS
+4. 프로그램 실행 (경로 확인)
+    > npm run serve
+5. 디렉토리 설명
+    - src: 소스코드 관리
+    - public: html 파일, 기타파일 보관
+```
