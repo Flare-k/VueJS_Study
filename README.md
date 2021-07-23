@@ -41,7 +41,7 @@ Web-app을 만들 때 사용한다.
     - html css support
     - vue 3 snippets
 ```
-[node.js 설치](www.nodejs.org)
+[node.js 설치](http://www.nodejs.org)
 
 
 ### 2. Vue 프로젝트 생성
