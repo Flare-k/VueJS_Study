@@ -4,10 +4,10 @@ import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Detail from "./views/Detail.vue";
 
-Vue.use(VueRouter); // Router ê°€ì ¸ì˜¤ê¸°
+Vue.use(VueRouter); // Router ê°?? ¸?˜¤ê¸?
 
-// Router ì •ì˜
-// App.vueì˜ router-view íƒœê·¸ ìª½ìœ¼ë¡œ ì´ë™í•œë‹¤.
+// Router ? •?˜
+// App.vue?˜ router-view ?ƒœê·? ìª½ìœ¼ë¡? ?´?™?•œ?‹¤.
 const router = new VueRouter({
     mode : "history",
     routes: [
@@ -20,7 +20,7 @@ const router = new VueRouter({
             component: About
         },
         {
-            path:"/detail",
+            path:"/user/me",
             component: Detail
         }
     ]
